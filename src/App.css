@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.bg {
+  background-attachment: fixed;position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.main {
+  margin-top: 60px; /* Add a top margin to avoid content overlay */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  background-color: #F8F9FA;
+}
+
+.btns {
+  margin: 2% 0 10% 42%;
+  width: 13%;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.quiz {
+  background-color: white;
+  height: 400px;
+  width: 965px;
+  box-shadow: 3px 3px 3px 0 gray;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+} 
+
+.avatars {
+  margin-right: 19px;
+}
+
+.progres{
+  height: 200px;
+}
+.chap1 {
+  margin-top: 150px;
+}
+
+.box{
+  background-color: white;
+  height: 400px;
+  width: 900px;
+  box-shadow: 3px 3px 3px 0 gray;
+}
+
+.Next {
+  margin-left: 700px ;
+}
+
+.sale {
+  margin-left: 13%;
+}
+
+.score {
+ margin-left: 32%;
+}
+.score2 {
+  margin-left: 27%;
+ }
+
+.lastbox{
+  background-color: white;
+  height: 250px;
+  width: 565px;
+  box-shadow: 3px 3px 3px 0 gray;
+}
+
+.marg{
+  margin-top: 21px;
+}
+
+.card{
+  box-shadow: 3px 3px 3px 0 gray;
+}
+
+.contain{
+  box-shadow: 3px 3px 3px 0 gray;
+}
